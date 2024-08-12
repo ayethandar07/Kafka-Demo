@@ -12,6 +12,12 @@
 </ul>
 
 <h3> Prerequisites </h3>
+<ul>
+  <li>.NET SDK 8.0 or later</li>
+  <li>Apache Kafka running on localhost or a specified server</li>
+  <li>Confluent.Kafka NuGet package</li>
+</ul>
+
 <h5> <strong>Kafka Setup</strong></h5>
 <p> Download and Install Kafka </p>
 <p>Follow the instructions on the <a href="https://kafka.apache.org/quickstart">Apache Kafka website to download and set up Kafka</a>.</p>
@@ -34,12 +40,6 @@
       kafka-topics.sh --create --topic InventoryUpdate --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 </code></pre>
 </div>
-
-<ul>
-  <li>.NET SDK 8.0 or later</li>
-  <li>Apache Kafka running on localhost or a specified server</li>
-  <li>Confluent.Kafka NuGet package</li>
-</ul>
 
 <h3> Testing </h3>
 <h5>Verify Message Consumption</h5>
