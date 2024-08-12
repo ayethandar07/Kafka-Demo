@@ -12,11 +12,11 @@
 </ul>
 
 <h3> Prerequisites </h3>
-<h5>Kafka Setup</h5>
+<h5> <strong>Kafka Setup</strong></h5>
 <p> Download and Install Kafka </p>
 <p>Follow the instructions on the <a href="https://kafka.apache.org/quickstart">Apache Kafka website to download and set up Kafka</a>.</p>
 
-<p>Start Kafka Broker</p>
+<h5> <strong>Start Kafka Broker</strong></h5>
 <p>Make sure the Kafka broker is running. You can start Kafka with the following commands:</p><p></p>
 <div class="codehilite">
 <pre><code> 
@@ -27,7 +27,7 @@
 </code></pre>
 </div>
 
-<p>Create Kafka Topic</p>
+<h5> <strong>Create Kafka Topic</strong></h5>
 <p>Create the topic InventoryUpdate where the producer will publish messages and the consumer will subscribe:</p><p></p>
 <div class="codehilite">
 <pre><code> 
